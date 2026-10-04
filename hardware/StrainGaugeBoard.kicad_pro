@@ -429,7 +429,7 @@
         "uuid": "fb459b39-605b-4b65-b2c9-e248812f4f03"
       }
     ],
-    "used_designators": "C22-23,C29-41,L1,D6,D9,#FLG2-5,R14-21,IC2,Q1-2,TP1-4,U3,#PWR2-12,FB3",
+    "used_designators": "C22-23,C29-71,L1,D6,D9-13,#FLG2-5,R14-57,IC2,Q1-2,TP1-4,U3,U5-12,#PWR2-68,FB3,J4-9",
     "variants": []
   },
   "sheets": [
@@ -464,6 +464,22 @@
     [
       "1a168893-fe6f-432a-88a3-0e0f25235a3e",
       "12VBuck"
+    ],
+    [
+      "4fb2b85f-e371-4800-a528-a536cd02caeb",
+      "StrainGaugeChannel1"
+    ],
+    [
+      "b398d1f2-3ee7-45ed-9af9-15902ef89bf2",
+      "StrainGaugeChannel2"
+    ],
+    [
+      "d6a6c748-5784-4196-b270-ba23f8e4d4eb",
+      "StrainGaugeChannel3"
+    ],
+    [
+      "39245f4f-bf71-4045-9d29-88fb3e804ee1",
+      "StrainGaugeChannel4"
     ]
   ],
   "text_variables": {},
