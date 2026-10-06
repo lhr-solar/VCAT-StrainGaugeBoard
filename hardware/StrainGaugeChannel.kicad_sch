@@ -4447,11 +4447,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52cb4d51-5abe-4667-a913-167096182505")
 		(property "Reference" "R24"
-			(at 170.18 62.2299 0)
+			(at 170.18 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4461,7 +4461,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ""
 			(at 170.18 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5656,11 +5656,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "a51b5657-bfb7-4676-917d-5174238857ec")
 		(property "Reference" "R27"
-			(at 190.5 78.7399 0)
+			(at 190.5 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5670,7 +5670,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ""
 			(at 190.5 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5956,11 +5956,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b2139b10-768b-4527-855d-1e58cb039b96")
 		(property "Reference" "R25"
-			(at 190.5 62.2299 0)
+			(at 190.5 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5970,7 +5970,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ""
 			(at 190.5 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6421,11 +6421,11 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dc965c0f-c88d-43bb-80aa-011fda0dfed0")
 		(property "Reference" "R26"
-			(at 170.18 78.7399 0)
+			(at 170.18 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6435,7 +6435,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" ""
 			(at 170.18 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
