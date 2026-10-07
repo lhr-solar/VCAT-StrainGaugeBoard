@@ -429,7 +429,7 @@
         "uuid": "fb459b39-605b-4b65-b2c9-e248812f4f03"
       }
     ],
-    "used_designators": "C22-23,C29-71,L1,D6,D9-13,#FLG2-5,R14-58,IC2,Q1-2,TP1-4,U3,U5-12,#PWR2-69,FB3,J4-9",
+    "used_designators": "C22-23,C29-107,L1,D6,D9-17,#FLG2-5,R14-140,IC2,Q1-2,TP1-4,U3,U5-24,#PWR2-164,FB3,J4-18,JP2,F1,CAN_IN1,CAN_OUT1",
     "variants": []
   },
   "sheets": [
@@ -470,16 +470,8 @@
       "StrainGaugeChannel1"
     ],
     [
-      "b398d1f2-3ee7-45ed-9af9-15902ef89bf2",
+      "82d3b8ef-2ffd-4fd8-9a87-3cee860232c7",
       "StrainGaugeChannel2"
-    ],
-    [
-      "d6a6c748-5784-4196-b270-ba23f8e4d4eb",
-      "StrainGaugeChannel3"
-    ],
-    [
-      "39245f4f-bf71-4045-9d29-88fb3e804ee1",
-      "StrainGaugeChannel4"
     ]
   ],
   "text_variables": {},
