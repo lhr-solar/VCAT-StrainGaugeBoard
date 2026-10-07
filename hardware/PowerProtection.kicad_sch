@@ -1611,7 +1611,7 @@
 	)
 	(text "4.84ms = 75us + 220nF * 6.5V/300uA\n6.5V recommended on datasheet\n4.84ms power up delay"
 		(exclude_from_sim no)
-		(at 32.258 108.966 0)
+		(at 31.75 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 	)
 	(text "Output of Python Calulations for Resistor Values"
 		(exclude_from_sim no)
-		(at 173.736 63.754 0)
+		(at 173.99 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1631,7 +1631,7 @@
 	)
 	(text "Kell Harpole"
 		(exclude_from_sim no)
-		(at 96.52 106.172 0)
+		(at 96.52 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)

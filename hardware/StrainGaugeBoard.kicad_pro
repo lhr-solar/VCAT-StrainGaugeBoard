@@ -28,7 +28,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|723900|1562100|7332731b-b1e2-441a-b077-b90c879b2680|7332731b-b1e2-441a-b077-b90c879b2680|/fb459b39-605b-4b65-b2c9-e248812f4f03/4fb2b85f-e371-4800-a528-a536cd02caeb|/fb459b39-605b-4b65-b2c9-e248812f4f03/4fb2b85f-e371-4800-a528-a536cd02caeb|/fb459b39-605b-4b65-b2c9-e248812f4f03/82d3b8ef-2ffd-4fd8-9a87-3cee860232c7",
+        ""
+      ],
+      [
+        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72|/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72|/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -429,7 +438,7 @@
         "uuid": "fb459b39-605b-4b65-b2c9-e248812f4f03"
       }
     ],
-    "used_designators": "C22-23,C29-107,L1,D6,D9-17,#FLG2-5,R14-140,IC2,Q1-2,TP1-4,U3,U5-24,#PWR2-164,FB3,J4-18,JP2,F1,CAN_IN1,CAN_OUT1",
+    "used_designators": "C22-23,C29-107,L1,D6,D9-17,#FLG2-10,R14-140,IC2,Q1-2,TP1-25,U3,U5-24,#PWR2-164,FB3,J4-18,JP2,F1,CAN_IN1,CAN_OUT1",
     "variants": []
   },
   "sheets": [

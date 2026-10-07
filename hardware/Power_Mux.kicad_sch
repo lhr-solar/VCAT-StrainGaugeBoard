@@ -716,18 +716,6 @@
 		(uuid "41c953aa-b18a-4534-9eed-07ae81e505c8")
 	)
 	(junction
-		(at 31.75 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4abad048-b8cb-4b10-bd26-4ca94dccbe64")
-	)
-	(junction
-		(at 88.9 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88424130-d1d6-400c-9226-728c7b467b21")
-	)
-	(junction
 		(at 39.37 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -740,10 +728,10 @@
 		(uuid "8da27b7f-3810-429b-8c5d-0d9b191ea7c9")
 	)
 	(junction
-		(at 31.75 64.77)
+		(at 88.9 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b6c3c02-5559-4858-a542-9239354a25ab")
+		(uuid "98dfacf3-f556-4668-83a9-a4f2957388b1")
 	)
 	(junction
 		(at 31.75 57.15)
@@ -772,16 +760,6 @@
 			(type default)
 		)
 		(uuid "0a09e75c-d9bb-4e91-b027-7ff3f88e964c")
-	)
-	(wire
-		(pts
-			(xy 31.75 72.39) (xy 39.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a7a06a9-e7fc-4bf8-aed6-95cfe67b94c9")
 	)
 	(wire
 		(pts
@@ -815,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 64.77) (xy 31.75 64.77)
+			(xy 30.48 64.77) (xy 39.37 64.77)
 		)
 		(stroke
 			(width 0)
@@ -832,16 +810,6 @@
 			(type default)
 		)
 		(uuid "1e66651e-b5a2-4151-96d5-f217289cba01")
-	)
-	(wire
-		(pts
-			(xy 31.75 64.77) (xy 39.37 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2963e132-8f5d-44de-9361-952126867a66")
 	)
 	(wire
 		(pts
@@ -862,6 +830,16 @@
 			(type default)
 		)
 		(uuid "4c87814d-decb-4363-aa51-22f1ba0b2e83")
+	)
+	(wire
+		(pts
+			(xy 76.2 62.23) (xy 76.2 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ed8b2d2-7e06-4b05-8434-798be766b3ff")
 	)
 	(wire
 		(pts
@@ -985,7 +963,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 72.39) (xy 31.75 72.39)
+			(xy 30.48 72.39) (xy 39.37 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1741,7 +1719,7 @@
 	)
 	(hierarchical_label "VIN_1"
 		(shape input)
-		(at 76.2 64.77 0)
+		(at 76.2 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1876,87 +1854,6 @@
 			(project "StrainGaugeBoard"
 				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 68.58 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "082c65fd-801c-4f84-9dfa-4a0e24c239ed")
-		(property "Reference" "R60"
-			(at 25.146 67.056 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7kR"
-			(at 25.146 69.596 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.972 68.58 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2a65e70-d487-4dfd-ae86-803e0496685b")
-		)
-		(pin "2"
-			(uuid "caffb183-06ab-4e4c-88f3-9df774b48cad")
-		)
-		(instances
-			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "R60")
 					(unit 1)
 				)
 			)
@@ -2434,87 +2331,6 @@
 			(project "StrainGaugeBoard"
 				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 31.75 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8beecec-c9ea-46fb-8829-38280f6c8e37")
-		(property "Reference" "R58"
-			(at 25.4 59.436 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "16kR"
-			(at 25.4 61.976 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.972 60.96 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 31.75 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f8a530ab-e5f1-4268-9234-f30c8649dbf5")
-		)
-		(pin "2"
-			(uuid "9031f660-315c-4b6a-9847-dd3d3fb5d1ad")
-		)
-		(instances
-			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "R58")
 					(unit 1)
 				)
 			)
