@@ -1761,7 +1761,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01ead70c-0165-4879-828f-f34459038239")
-		(property "Reference" "C28"
+		(property "Reference" "C36"
 			(at 91.8972 57.2516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1772,7 +1772,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 91.8972 59.563 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1852,8 +1852,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "C28")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -1870,7 +1870,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b5b7fd6-b1a2-49bf-aab6-5b1c87c9f917")
-		(property "Reference" "R13"
+		(property "Reference" "R16"
 			(at 78.994 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1948,8 +1948,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "R13")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -1966,7 +1966,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "34e6f2ae-d271-4a6d-9148-a06a796ccc05")
-		(property "Reference" "C25"
+		(property "Reference" "C33"
 			(at 24.5872 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1977,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 24.5872 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,8 +2057,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "C25")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -2076,7 +2076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8edbd683-d226-4095-b4a7-38849f22f4d9")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 60.96 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2220,8 +2220,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "U4")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2238,7 +2238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11a1149-af1e-4d2e-b9ef-9558fb40c6e9")
-		(property "Reference" "C27"
+		(property "Reference" "C35"
 			(at 42.3672 67.4116 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2249,7 +2249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 42.3672 69.723 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2329,8 +2329,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "C27")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -2347,7 +2347,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fffce44d-6a2f-431a-a7e0-1c503bf34ef7")
-		(property "Reference" "C26"
+		(property "Reference" "C34"
 			(at 38.5572 44.5516 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2358,7 +2358,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 38.5572 46.863 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,8 +2438,8 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/ad2265c7-0a96-4914-a6f0-818e23817a72"
-					(reference "C26")
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c"
+					(reference "C34")
 					(unit 1)
 				)
 			)

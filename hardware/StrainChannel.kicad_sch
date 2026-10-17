@@ -1749,6 +1749,16 @@
 		)
 		(uuid "0674da1d-c41f-4414-8a30-b2311f6db1a2")
 	)
+	(text "Use C0G/NP0 for all three caps"
+		(exclude_from_sim no)
+		(at 39.37 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d734cc2-72d0-47ec-a297-332db3fd4ed3")
+	)
 	(text "Gauge Connector"
 		(exclude_from_sim no)
 		(at 29.21 19.05 0)
@@ -1788,6 +1798,26 @@
 			)
 		)
 		(uuid "639807f0-3523-4283-ad5a-c16082374a2c")
+	)
+	(text "Need a 0.1% low drift part"
+		(exclude_from_sim no)
+		(at 104.648 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94a3ebec-dd05-438b-9e04-0ccea6260056")
+	)
+	(text "Check cutoffs"
+		(exclude_from_sim no)
+		(at 38.1 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9efe05c3-1890-4727-901b-ddf036c329d1")
 	)
 	(text "Populate only arms without a gauge\nQuarter: R25, R26, R27\nHalf: R25, R27\nFull: None"
 		(exclude_from_sim no)
@@ -2292,6 +2322,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 31.75) (xy 72.39 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a728f565-0046-4f37-8104-18e6eea22a2d")
+	)
+	(wire
+		(pts
 			(xy 100.33 71.12) (xy 100.33 72.39)
 		)
 		(stroke
@@ -2734,17 +2774,6 @@
 		)
 		(uuid "201f0d86-6efb-4a48-8c79-55a4e53bce9b")
 	)
-	(hierarchical_label "VDDA"
-		(shape input)
-		(at 6.2541 0.8096 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "36e18446-9a04-45b0-a08a-a242d1884356")
-	)
 	(hierarchical_label "GNDA"
 		(shape passive)
 		(at 45.72 85.09 0)
@@ -2857,7 +2886,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape passive)
-		(at 72.39 31.75 0)
+		(at 73.66 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2944,7 +2973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "350"
 			(at 101.6 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2984,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3049,7 +3078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 134.62 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3128,7 +3157,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100kR"
+		(property "Value" "100k"
 			(at 87.122 102.616 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3168,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.472 101.6 90)
 			(hide yes)
 			(show_name no)
@@ -3162,6 +3191,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 95.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1003T5E"
+			(at 95.25 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C25803"
 			(at 95.25 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3222,7 +3273,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "350"
 			(at 109.22 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3233,7 +3284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 30.48 90)
 			(hide yes)
 			(show_name no)
@@ -3325,7 +3376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
 			(at 43.18 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3348,6 +3399,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 43.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "105310-1110"
+			(at 43.18 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 43.18 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -3432,7 +3505,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "350"
 			(at 101.6 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3443,7 +3516,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -3527,7 +3600,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 39.37 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3538,7 +3611,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -3561,6 +3634,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603JRNPO9BN102"
+			(at 43.18 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 43.18 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -3620,7 +3715,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 68.834 36.576 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3630,7 +3725,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.58 29.972 90)
 			(hide yes)
 			(show_name no)
@@ -3653,6 +3748,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 68.58 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
 			(at 68.58 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -3758,6 +3875,28 @@
 				)
 			)
 		)
+		(property "P/N" "ESDA5V3SC5"
+			(at 147.32 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 147.32 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "b5500bdb-979e-450f-a938-5820399fe1a9")
 		)
@@ -3816,7 +3955,7 @@
 				)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "1k"
 			(at 33.02 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3826,7 +3965,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 91.948 90)
 			(hide yes)
 			(show_name no)
@@ -3849,6 +3988,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 33.02 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -3909,7 +4070,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "350"
 			(at 109.22 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3920,7 +4081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.902 41.91 90)
 			(hide yes)
 			(show_name no)
@@ -4004,7 +4165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1nF"
+		(property "Value" "1n"
 			(at 39.37 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4015,7 +4176,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 44.1452 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4038,6 +4199,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 43.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603JRNPO9BN102"
+			(at 43.18 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 43.18 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4097,7 +4280,7 @@
 				)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "1k"
 			(at 33.02 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4107,7 +4290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 33.02 76.708 90)
 			(hide yes)
 			(show_name no)
@@ -4130,6 +4313,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1001T5E"
+			(at 33.02 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21190"
 			(at 33.02 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4189,7 +4394,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "0.1u"
 			(at 91.44 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4200,7 +4405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 99.3648 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -4223,6 +4428,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 100.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "MLASH168SB7104KTNA01"
+			(at 100.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C14663"
 			(at 100.33 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4281,7 +4508,7 @@
 				)
 			)
 		)
-		(property "Value" "174kR"
+		(property "Value" "174k"
 			(at 91.44 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4291,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 91.44 90.932 90)
 			(hide yes)
 			(show_name no)
@@ -4315,6 +4542,17 @@
 		)
 		(property "Description" "Resistor"
 			(at 91.44 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "0603WAF1743T5E"
+			(at 91.44 92.71 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4374,7 +4612,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "10n"
 			(at 65.278 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4385,7 +4623,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 58.1152 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -4408,6 +4646,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 57.15 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CC0603JRNPO9BN103"
+			(at 57.15 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
 			(at 57.15 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4466,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "0"
 			(at 68.834 24.384 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4476,7 +4736,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 68.58 30.988 90)
 			(hide yes)
 			(show_name no)
@@ -4499,6 +4759,28 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "CRCW06030000Z0EE"
+			(at 68.58 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C21189"
 			(at 68.58 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4601,6 +4883,28 @@
 				)
 			)
 		)
+		(property "P/N" "TS5A3166DBVR"
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" ""
+			(at 104.14 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "89b0fac2-549a-4e99-bf7a-3a14089fc818")
 		)
@@ -4671,7 +4975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 134.62 73.66 0)
 			(hide yes)
 			(show_name no)
