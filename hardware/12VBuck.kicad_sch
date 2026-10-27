@@ -646,8 +646,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 2.54 0)
+			(property "Reference" "U1"
+				(at 15.24 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -657,7 +657,7 @@
 				)
 			)
 			(property "Value" "LMR51635XDDCR"
-				(at 0 0 0)
+				(at 15.24 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -666,7 +666,7 @@
 					)
 				)
 			)
-			(property "Footprint" "DDC0006A-MFG"
+			(property "Footprint" "LHRS_ICs:DDC0006A-MFG"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -678,7 +678,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "file://C:\\Users\\gavin\\Downloads\\lmr51635.pdf"
+			(property "Datasheet" "kicad-embed://lmr51635.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -782,7 +782,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin input line
 					(at 30.48 -10.16 180)
 					(length 5.08)
 					(name "FB"
@@ -1023,7 +1023,7 @@
 	)
 	(text "12V Vout"
 		(exclude_from_sim no)
-		(at 223.012 72.898 0)
+		(at 223.52 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1031,9 +1031,19 @@
 		)
 		(uuid "2b41b39b-bf13-4b48-ab5a-8b5da00bc095")
 	)
+	(text "Vin: 4.6V to 60V"
+		(exclude_from_sim no)
+		(at 74.93 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "56304c54-7458-4a22-9af6-d9f834b01a1e")
+	)
 	(text "Fsw 400khz"
 		(exclude_from_sim no)
-		(at 90.17 113.538 0)
+		(at 90.17 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1044,7 +1054,7 @@
 	)
 	(text "Vout 5"
 		(exclude_from_sim no)
-		(at 107.442 112.776 0)
+		(at 107.95 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1054,7 +1064,7 @@
 	)
 	(text "12V-5V Buck Converter"
 		(exclude_from_sim no)
-		(at 129.794 60.452 0)
+		(at 129.54 60.96 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1398,7 +1408,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c341ae99-7232-4f8f-8519-e9881c327a95")
+		(uuid "c12f9e1e-c7a5-4f81-ac9d-e371fcbe4980")
 	)
 	(wire
 		(pts
@@ -7852,7 +7862,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "#FLG05")
 					(unit 1)
 				)
@@ -7980,7 +7990,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C1")
 					(unit 1)
 				)
@@ -8018,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Passives:74439369082"
+		(property "Footprint" "LHRS_Power:XAL5050822MEC"
 			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8051,7 +8061,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C5309356"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8062,7 +8072,7 @@
 				)
 			)
 		)
-		(property "P/N" "74439369082"
+		(property "P/N" "XAL5050-822MEC"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8105,7 +8115,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "L1")
 					(unit 1)
 				)
@@ -8207,7 +8217,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "#FLG09")
 					(unit 1)
 				)
@@ -8309,7 +8319,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -8424,7 +8434,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C4")
 					(unit 1)
 				)
@@ -8539,7 +8549,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C6")
 					(unit 1)
 				)
@@ -8666,7 +8676,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C3")
 					(unit 1)
 				)
@@ -8768,7 +8778,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "#FLG08")
 					(unit 1)
 				)
@@ -8896,7 +8906,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "R1")
 					(unit 1)
 				)
@@ -9012,7 +9022,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C2")
 					(unit 1)
 				)
@@ -9140,7 +9150,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "R2")
 					(unit 1)
 				)
@@ -9255,7 +9265,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "C5")
 					(unit 1)
 				)
@@ -9329,6 +9339,28 @@
 				)
 			)
 		)
+		(property "P/N" "LMR51635XDDCR"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C42432812"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
 			(uuid "d1afdcbd-1ad1-4ee0-a46e-15a36aac9cbc")
 		)
@@ -9355,7 +9387,7 @@
 				)
 			)
 			(project "StrainGaugeBoard"
-				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/b92e82c5-b57f-475d-ad11-e6ea1f670827"
+				(path "/fb459b39-605b-4b65-b2c9-e248812f4f03/0369a2dd-0a30-45a9-8dbd-6310d49e6fe6"
 					(reference "U1")
 					(unit 1)
 				)

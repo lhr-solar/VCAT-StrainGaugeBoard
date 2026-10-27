@@ -260,16 +260,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "pin_to_pin|762000|546100|f3f509c2-d3e6-47a0-8366-eea0c15e95c6|dde996d6-302b-482b-b103-33bed2f0833e|/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c|/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c|/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c",
-        ""
-      ],
-      [
-        "pin_to_pin|762000|571500|dde996d6-302b-482b-b103-33bed2f0833e|ba108a35-25ac-4970-87e5-38a06519996f|/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c|/fb459b39-605b-4b65-b2c9-e248812f4f03/277fb226-beeb-42a0-a95e-b53d17001e5c|/fb459b39-605b-4b65-b2c9-e248812f4f03",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -826,7 +817,7 @@
         "uuid": "fb459b39-605b-4b65-b2c9-e248812f4f03"
       }
     ],
-    "used_designators": "C1-6,C22-23,C29-107,L1,D6,D9-23,#FLG2-12,R1-2,R14-140,IC2,Q1-2,TP1-43,U1,U3,U5-24,#PWR2-164,FB3,J1-2,J4-19,JP2,F1,CAN_IN1,CAN_OUT1",
+    "used_designators": "C1-6,C20-23,C27-107,L1,D5-6,D9-23,#FLG1-12,R1-2,R13-140,IC1-2,Q1-2,TP1-43,U1,U3,U5-24,#PWR2-164,FB3,J1-2,J4-23,JP1-2,F1,CAN_IN1,CAN_OUT1",
     "variants": []
   },
   "sheets": [
@@ -835,24 +826,28 @@
       "StrainGaugeBoard"
     ],
     [
-      "b92e82c5-b57f-475d-ad11-e6ea1f670827",
+      "0369a2dd-0a30-45a9-8dbd-6310d49e6fe6",
       "12VBuck"
     ],
     [
-      "bec3623c-6687-4a37-ac7e-c47c7765a3b8",
+      "ba1051ad-c7ed-41c8-9575-b6948b6c3f61",
+      "USB-C_Connector"
+    ],
+    [
+      "a3e1acfa-f779-425b-b19c-81af70e27fe8",
       "CAN_Transceiver"
     ],
     [
-      "0f6aa9f2-6d49-4f25-ba1a-640886683f20",
+      "8adc50da-96b4-44c0-ae24-5078d517480f",
+      "Power_Mux"
+    ],
+    [
+      "a8df2723-69d3-4f22-bdf5-d4cbca3cf8a2",
       "48PinMCU"
     ],
     [
-      "4f1a03b9-49be-4a23-9dfc-7289aae16270",
+      "fa47c41d-6a11-441f-8184-c3a98c3422e9",
       "LDO"
-    ],
-    [
-      "277fb226-beeb-42a0-a95e-b53d17001e5c",
-      "Power_Mux"
     ],
     [
       "4fb2b85f-e371-4800-a528-a536cd02caeb",
@@ -869,10 +864,6 @@
     [
       "42747b67-36d9-462d-9653-b72637565628",
       "StrainChannel1"
-    ],
-    [
-      "2bde2a13-4d99-4d83-8b03-39dcc097d6ac",
-      "USB-C_Connector"
     ],
     [
       "2c443863-7807-4b9a-b5cf-68f64695ea53",

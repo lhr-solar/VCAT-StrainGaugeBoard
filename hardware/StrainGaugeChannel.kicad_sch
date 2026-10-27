@@ -4038,7 +4038,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "StrainChannel.kicad_sch"
+		(property "Sheetfile" "HalfBridgeChannel.kicad_sch"
 			(at 106.68 74.2446 0)
 			(show_name no)
 			(do_not_autoplace no)
