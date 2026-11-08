@@ -12365,7 +12365,7 @@
 					)
 				)
 			)
-			(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -13505,10 +13505,6 @@
 		(uuid "4326e03e-d439-4a47-a158-cfaf57969066")
 	)
 	(no_connect
-		(at 48.26 121.92)
-		(uuid "474193ff-58a1-4bda-b6a8-4af95b41b6ed")
-	)
-	(no_connect
 		(at 48.26 138.43)
 		(uuid "59d8231e-784f-4301-bcef-ad91a6d1ce4d")
 	)
@@ -13527,14 +13523,6 @@
 	(no_connect
 		(at 48.26 97.79)
 		(uuid "a944e88a-0b62-40f1-8252-47a12eeff40d")
-	)
-	(no_connect
-		(at 72.39 96.52)
-		(uuid "b7d1aa9d-b004-4483-9000-3b279377a328")
-	)
-	(no_connect
-		(at 48.26 140.97)
-		(uuid "f19a678f-f30d-4690-9d14-143ef1bb26b8")
 	)
 	(wire
 		(pts
@@ -13748,16 +13736,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 127) (xy 78.74 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22dfade0-e8d8-4534-8fc9-76ef24a33023")
-	)
-	(wire
-		(pts
 			(xy 78.74 147.32) (xy 78.74 152.4)
 		)
 		(stroke
@@ -13775,16 +13753,6 @@
 			(type default)
 		)
 		(uuid "255126d4-2ac5-47b5-84c8-6f924e2e3cdc")
-	)
-	(wire
-		(pts
-			(xy 44.45 116.84) (xy 48.26 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "256e13f1-28fc-418f-b595-77dc01799e4e")
 	)
 	(wire
 		(pts
@@ -14168,16 +14136,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 118.11) (xy 87.63 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60f97976-887f-42ce-88e9-625106c53459")
-	)
-	(wire
-		(pts
 			(xy 132.08 95.25) (xy 139.7 95.25)
 		)
 		(stroke
@@ -14235,16 +14193,6 @@
 			(type default)
 		)
 		(uuid "6e622633-0aaf-442b-80c0-de50fd81fbb5")
-	)
-	(wire
-		(pts
-			(xy 44.45 143.51) (xy 48.26 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ea042ec-7b00-40e5-b359-e41be406e042")
 	)
 	(wire
 		(pts
@@ -14665,16 +14613,6 @@
 			(type default)
 		)
 		(uuid "c3be6e84-3c27-4b29-8258-1428b178bab3")
-	)
-	(wire
-		(pts
-			(xy 72.39 123.19) (xy 78.74 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8216d4e-dd30-45c9-9658-5c50c63e606c")
 	)
 	(wire
 		(pts
@@ -16278,16 +16216,6 @@
 		)
 		(uuid "5182cfff-4bfa-4aa3-bdb3-eac9035ef1d6")
 	)
-	(label "ADC_CLKIN"
-		(at 44.45 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "52da20f1-4e70-4c66-b909-9a8922b9029b")
-	)
 	(label "SHUNT_CAL3"
 		(at 78.74 135.89 0)
 		(effects
@@ -16357,16 +16285,6 @@
 			(justify right bottom)
 		)
 		(uuid "719705da-33e1-46c7-a83f-b78f016866f5")
-	)
-	(label "ADC_SYNC_RST"
-		(at 44.45 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "747f6a4d-d132-4178-b02b-f332f4cd3fba")
 	)
 	(label "CAN_H"
 		(at 93.98 29.21 180)
@@ -16498,16 +16416,6 @@
 		)
 		(uuid "baafc290-9d18-44ca-b125-2c2a31448cfa")
 	)
-	(label "SHUNT_CAL0"
-		(at 78.74 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c37bae2b-c976-4baa-ac3a-631a0029534a")
-	)
 	(label "SPI_MISO"
 		(at 176.53 107.95 0)
 		(effects
@@ -16597,16 +16505,6 @@
 			(justify right bottom)
 		)
 		(uuid "fabdc8fa-5dfc-40d0-96f2-722bf1bbe066")
-	)
-	(label "SHUNT_CAL1"
-		(at 78.74 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fddbb44d-c02d-449a-890a-e6df147117f7")
 	)
 	(label "CAN_TX"
 		(at 44.45 111.76 180)
@@ -17320,7 +17218,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 195.58 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -17476,7 +17374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -17709,7 +17607,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18676,7 +18574,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -19249,7 +19147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 273.05 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -19328,7 +19226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 273.05 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -19719,7 +19617,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -20705,7 +20603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 214.63 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -21278,7 +21176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 273.05 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -23472,6 +23370,102 @@
 				)
 			)
 		)
+	)
+	(no_connect
+		(at 48.26 116.84)
+		(uuid "83ffe852-89de-4333-8ae8-b258a2a73105")
+	)
+	(wire
+		(pts
+			(xy 72.39 96.52) (xy 78.74 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad28bb4-2d9e-4fe9-86c5-f513dcc63cfc")
+	)
+	(label "ADC_SYNC_RST"
+		(at 78.74 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d70109fd-ed6d-41fd-8683-be80ae037df5")
+	)
+	(no_connect
+		(at 48.26 143.51)
+		(uuid "64c65f63-3f33-46a4-958f-23c0ce7a33b3")
+	)
+	(wire
+		(pts
+			(xy 72.39 118.11) (xy 78.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dc2fd6a-601a-47de-948e-41a796893913")
+	)
+	(label "ADC_CLKIN"
+		(at 78.74 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ca9628a5-0812-4b5d-a4a3-0a21b975567e")
+	)
+	(no_connect
+		(at 72.39 123.19)
+		(uuid "ba9d8c95-c52b-4917-ad03-9d90125647f8")
+	)
+	(wire
+		(pts
+			(xy 44.45 140.97) (xy 48.26 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb386be-22ee-4052-9175-c62833a8bf26")
+	)
+	(label "SHUNT_CAL0"
+		(at 44.45 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "82ff81ff-4301-4b51-bf28-2fac04ea371f")
+	)
+	(no_connect
+		(at 72.39 127)
+		(uuid "1bf6a3a1-145b-4a28-9e80-fe2c540663a7")
+	)
+	(wire
+		(pts
+			(xy 44.45 121.92) (xy 48.26 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dc18584-ff8f-4f48-96c3-487934e7fc0f")
+	)
+	(label "SHUNT_CAL1"
+		(at 44.45 121.92 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef77d5d0-4388-4060-b83d-746d8c64e0e7")
 	)
 	(sheet_instances
 		(path "/"
